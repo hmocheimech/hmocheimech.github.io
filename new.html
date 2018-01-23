@@ -1,0 +1,334 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hassan Mocheimech</title>
+</head>
+<style>
+@media only screen and (max-width : 320px) {
+.one{
+margin:0;
+height:60vh;
+border:0px solid red;
+position:relative;
+
+	padding:20px;
+}
+}
+body, html {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+	background-image: linear-gradient(to bottom right,#111111,#111111);
+	overflow: hidden;
+	font-family: Baskerville Old Face;
+    font-size: 16px;
+	color:white;
+	
+}
+
+#main {
+    position:absolute;
+	height:99.7vh;
+	width:100vw;
+	display:block;
+  	background-image: linear-gradient(to bottom right,#111111,#111111);
+	left: 0;
+    top: 0;
+	overflow:hidden;
+	/*36454f*/
+}
+
+
+#nav{
+height:60px;
+border-bottom:0px solid #ccc;
+box-sizing: border-box;
+position:fixed;
+width:100%;
+background-color:#fff;
+color:black;
+z-index:1;
+}
+
+#navbtn{
+height:60px;
+font-size:40px;
+font-weight:bold;
+width:15%;
+text-align: center;
+vertical-align: middle;
+line-height: 60px;
+ float: left; 
+ transform: rotate(0deg);
+
+}
+
+
+#logo{
+height:87px;
+width: 102px;
+ 
+border-top:1px solid gray;
+border-right:1px solid gray;
+box-sizing: border-box;
+	left: 50%;
+    top: 0%;
+	 position: relative;
+	 transform: translate(-50%,0%);
+   color:gray;
+
+}
+#inlogo{
+height:54px;
+width: 70px;
+ 
+border-left:1px solid gray;
+border-bottom:1px solid gray;
+box-sizing: border-box;
+   top:16px;
+   left:15px;
+	 position: relative;
+
+   color:gray;
+   font-size:45px;
+   font-weight:bold;
+   text-align:center;
+   line-height:54px;
+    -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: 200s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: 200s;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: 200s;
+  -ms-animation-timing-function: linear;
+
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(-50deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(-50deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(-50deg);}
+    to {transform:rotate(360deg);}
+}
+.gnr{
+
+height:auto;
+width:100%;
+border:0px solid red;
+box-sizing: border-box;
+text-align: center;
+font-size: 22px;
+padding:6px;
+color:#353536;
+border:0px solid red;
+margin-top:4px;
+}
+#title{
+height:auto;
+width:100%;
+border:0px solid red;
+box-sizing: border-box;
+text-align: center;
+font-size: 22px;
+padding:6px;
+color:#353536;
+letter-spacing: 7px;
+
+margin-top:4px;
+}
+#qte{
+height:auto;
+width:100%;
+border:0px solid red;
+box-sizing: border-box;
+text-align: center;
+font-size: 21px;
+padding:0px 0 6px 0;
+line-height:26px;
+color:#CECECF;
+margin-top:4px;
+}
+
+#one{
+margin:0;
+height:85vh;
+border:0px solid red;
+position:relative;
+left: 50%;
+    top: 50%;
+	 transform: translate(-50%,-50%);
+	padding:20px;
+}
+ input[type=submit]{
+
+ background-color: #111111;
+
+}
+ input[type=text]{
+
+ font-weight:normal;
+   font-family: Baskerville Old Face;
+   font-size:16px;
+}
+
+.frm{
+
+left: 50%;
+    top: 0%;
+	 position: relative;
+	 transform: translate(-50%,0%);
+border:0px solid red;
+margin-top:4px;
+display: inline-block;
+}
+.txt{
+
+   width:320px;
+  background-color: #353536;
+   border:none;
+    color: white;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+	outline:none;
+    display: inline-block;
+    font-size: 16px;
+   margin: 0;
+   font-weight:normal;
+   font-family: Baskerville Old Face;
+   
+}
+form{
+margin:0;
+
+}
+.button {
+   
+	
+    border: none;
+    color: #2f7f8b;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+	outline:none;
+	font-family: Baskerville Old Face;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+	
+}
+.btn {
+  background-image: linear-gradient(to bottom right,#003333,#16393e);
+   border: none;
+}
+.btn2{
+border:2px solid #003333;
+background-image: linear-gradient(to bottom right,#111111,#111111);
+
+}
+#wrap{
+left: 50%;
+    top: 50%;
+	 transform: translate(-50%,-50%);
+height:auto;
+border:none;
+ outline:none;
+position:fixed;
+padding:28px;
+ 
+
+}
+.divs{
+width:50px;
+height:60px;
+ border:3px solid #111111;
+ border-left:0px;
+ border-buttom:0px;
+  float: left;
+  cursor:pointer;
+  font-size:20px;
+  line-height:50px;
+  text-align:center;
+  background-color: #353536;
+  box-sizing: border-box;
+}
+#liner{
+height:50px;
+background-color:#353536;
+}
+
+</style>
+<body onload="initialize();">
+
+
+<div id="main">
+
+<!--<div id="nav"> <div id="navbtn">i</div></div> -->
+<div id ="one">
+<div id ="liner"></div>
+<div id="wrap">
+<div id="logo"><div id="inlogo">&#x21CC;</div></div>
+<div id="title">STIFFNTEAL</div>
+<div id="qte">I'm working on it and will be launching soon  </div>
+<div class="frm" >
+<form action="">
+ <input type="text" name="firstname" value="" class="txt">
+  <input type="submit" class="button btn" value=" NOTIFY ME" >
+</form>
+</div>
+<div class="gnr"><button  class="button btn2" onclick="lpdiv()"> DEMO</button> </div>
+</div>
+</div>
+<div id ="ftr"></div>
+</div>
+ 
+
+
+</body>
+<script  type="text/javascript">
+var m = document.getElementById('main');
+var s =  document.getElementsByClassName('str');
+
+
+ 
+var divTarget=0;
+window.addEventListener('resize', initialize,false);
+
+ function initialize(){
+		m.width = window.clientWidth;
+		m.height = window.clientHeight;
+		s.width = window.clientWidth;
+		s.height = window.clientHeight;
+   }
+  function adddiv(){ 
+	var node = document.createElement("div"); 
+	node.className = 'divs';
+	node.id =""+Math.floor((Math.random() * 1000) + 1);
+    
+	node.innerHTML =""+node.id;
+	var unique=""+node.id;
+	document.getElementById("one").appendChild(node);    
+	//document.getElementById("wrap").style.backgroundColor ="#C0C0C0";  
+	document.getElementById(""+unique).onclick =function() {node.style.display = 'none'; }
+  }
+  function lpdiv(){
+   for (i = 0; i < 20; i++) { 
+   adddiv();
+   }
+  }
+  
+</script>
+</html>
