@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name='language' content='ES'>
@@ -12,7 +12,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-112906423-1');
 </script>
 	
@@ -24,7 +23,6 @@ margin:0;
 height:60vh;
 border:0px solid red;
 position:relative;
-
 	padding:20px;
 }
 }
@@ -40,7 +38,6 @@ body, html {
 	color:white;
 	
 }
-
 #main {
     position:absolute;
 	height:99.7vh;
@@ -52,8 +49,6 @@ body, html {
 	overflow:hidden;
 	/*36454f*/
 }
-
-
 #nav{
 height:60px;
 border-bottom:0px solid #ccc;
@@ -64,7 +59,6 @@ background-color:#fff;
 color:black;
 z-index:1;
 }
-
 #navbtn{
 height:60px;
 font-size:40px;
@@ -75,10 +69,7 @@ vertical-align: middle;
 line-height: 60px;
  float: left; 
  transform: rotate(0deg);
-
 }
-
-
 #logo{
 height:87px;
 width: 102px;
@@ -91,7 +82,6 @@ box-sizing: border-box;
 	 position: relative;
 	 transform: translate(-50%,0%);
    color:gray;
-
 }
 #inlogo{
 height:54px;
@@ -103,7 +93,6 @@ box-sizing: border-box;
    top:16px;
    left:15px;
 	 position: relative;
-
    color:gray;
    font-size:45px;
    font-weight:bold;
@@ -121,7 +110,6 @@ box-sizing: border-box;
   -ms-animation-duration: 4000ms;
   -ms-animation-iteration-count: 200s;
   -ms-animation-timing-function: linear;
-
 }
 @-moz-keyframes spin {
     from { -moz-transform: rotate(-50deg); }
@@ -136,7 +124,6 @@ box-sizing: border-box;
     to {transform:rotate(360deg);}
 }
 .gnr{
-
 height:auto;
 width:100%;
 border:0px solid red;
@@ -158,7 +145,6 @@ font-size: 22px;
 padding:6px;
 color:#353536;
 letter-spacing: 7px;
-
 margin-top:4px;
 }
 #qte{
@@ -173,7 +159,6 @@ line-height:26px;
 color:#CECECF;
 margin-top:4px;
 }
-
 #one{
 margin:0;
 height:85vh;
@@ -185,19 +170,14 @@ left: 50%;
 	padding:20px;
 }
  input[type=submit]{
-
  background-color: #111111;
-
 }
  input[type=text]{
-
  font-weight:normal;
    font-family: Baskerville Old Face;
    font-size:16px;
 }
-
 .frm{
-
 left: 50%;
     top: 0%;
 	 position: relative;
@@ -207,7 +187,6 @@ margin-top:4px;
 display: inline-block;
 }
 .txt{
-
    width:320px;
   background-color: #353536;
    border:none;
@@ -225,7 +204,6 @@ display: inline-block;
 }
 form{
 margin:0;
-
 }
 .button {
    
@@ -250,7 +228,6 @@ margin:0;
 .btn2{
 border:2px solid #003333;
 background-image: linear-gradient(to bottom right,#111111,#111111);
-
 }
 #wrap{
 left: 50%;
@@ -262,7 +239,6 @@ border:none;
 position:fixed;
 padding:28px;
  
-
 }
 .divs{
 width:50px;
@@ -282,7 +258,6 @@ height:60px;
 height:50px;
 background-color:#111111;
 }
-
 </style>
 <body onload="initialize();">
 
@@ -295,11 +270,11 @@ background-color:#111111;
 <div id="wrap">
 <div id="logo"><div id="inlogo">&#8605;</div></div>
 <div id="title">STIFFNTEAL</div>
-<div id="qte"> New website is on it's way ... </div>
+<div id="qte"> New website is on its way ... </div>
 <div class="frm" >
 <form action="">
- <input type="text" name="firstname" value="" maxlength="2" class="txt">
-  <input type="submit" class="button btn" value=" NOTIFY ME" >
+ <input type="text" name="Email" value="" maxlength="2" class="txt">
+  <input type="submit" class="button btn" value="SUBSCRIBE" >
 </form>
 </div>
 <div class="gnr"><button  class="button btn2" onclick="lpdi()"> DEMO</button> </div>
@@ -314,12 +289,9 @@ background-color:#111111;
 <script  type="text/javascript">
 var m = document.getElementById('main');
 var s =  document.getElementsByClassName('str');
-
-
  
 var divTarget=0;
 window.addEventListener('resize', initialize,false);
-
  function initialize(){
 		m.width = window.clientWidth;
 		m.height = window.clientHeight;
